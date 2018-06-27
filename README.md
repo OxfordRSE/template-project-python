@@ -11,3 +11,4 @@ To do:
 - [ ] appveyor (badge)
 - [ ] codecov (badge)
 - [ ] readthedocs (badge)
+- [ ] Documentation on this page
