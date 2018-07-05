@@ -66,7 +66,8 @@ setup(
 
     # List of dependencies
     install_requires=[
-        # Dependencies (e.g. numpy) go here!
+        # Dependencies go here!
+        'numpy',
     ],
     extras_require={
         'docs': [

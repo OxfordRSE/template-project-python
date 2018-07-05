@@ -8,6 +8,7 @@
 #
 from __future__ import absolute_import, division
 from __future__ import print_function, unicode_literals
+import numpy as np
 
 class FloatRounder(object):
     """
@@ -37,6 +38,6 @@ class FloatRounder(object):
             # Round using cast to int (and back to float)
             return float(int(number))
         else:
-            # Round using built-in python function
-            return round(number)
+            # Round using NumPy (Python's rounding changed from v2 to v3).
+            return np.round(number)
 
