@@ -10,7 +10,7 @@ from __future__ import absolute_import, division
 from __future__ import print_function, unicode_literals
 
 # Import version info
-from ._version import VERSION_INT, VERSION
+from ._version_info import VERSION_INT, VERSION
 
 # Import main classes
 from ._calculate import (

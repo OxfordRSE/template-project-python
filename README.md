@@ -6,7 +6,7 @@ To do:
 - [x] Module structure
 - [ ] Sphinx docs
 - [x] Unit tests
-- [ ] setup.py
+- [x] setup.py
 - [ ] travis (badge)
 - [ ] appveyor (badge)
 - [ ] codecov (badge)
