@@ -2,10 +2,10 @@
 a template Python project
 
 To do:
-- [ ] gitignore
-- [ ] Module structure
+- [x] gitignore
+- [x] Module structure
 - [ ] Sphinx docs
-- [ ] Unit tests
+- [x] Unit tests
 - [ ] setup.py
 - [ ] travis (badge)
 - [ ] appveyor (badge)
