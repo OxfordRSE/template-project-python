@@ -1,6 +1,8 @@
 #
 # Version information fo OxRSE.
 #
+# See: https://packaging.python.org/guides/single-sourcing-package-version/
+#
 # This file is part of the Oxford RSE Python Template project.
 #  Copyright (c) 2018, University of Oxford.
 #  For licensing information, see the LICENSE file distributed with the OxRSE
