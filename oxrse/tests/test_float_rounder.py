@@ -11,6 +11,7 @@ from __future__ import print_function, unicode_literals
 import unittest
 import oxrse
 
+
 class FloatRounderTest(unittest.TestCase):
     """
     Tests the :class:`FloatRounder` class.

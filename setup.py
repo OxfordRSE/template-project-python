@@ -10,6 +10,7 @@ from __future__ import absolute_import, division
 from __future__ import print_function, unicode_literals
 from setuptools import setup, find_packages
 
+
 def get_version():
     """
     Get version number from the oxrse module.
@@ -34,7 +35,7 @@ def get_readme():
     Load README.md text for use as description.
     """
     with open('README.md') as f:
-        readme = f.read()
+        return f.read()
 
 
 # Go!

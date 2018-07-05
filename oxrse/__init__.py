@@ -10,11 +10,11 @@ from __future__ import absolute_import, division
 from __future__ import print_function, unicode_literals
 
 # Import version info
-from ._version_info import VERSION_INT, VERSION
+from ._version_info import VERSION_INT, VERSION  # noqa
 
 # Import main classes
-from ._calculate import (
+from ._calculate import (   # noqa
     add,
     subtract,
 )
-from ._float_rounder import FloatRounder
+from ._float_rounder import FloatRounder    # noqa

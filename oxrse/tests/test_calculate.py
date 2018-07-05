@@ -11,6 +11,7 @@ from __future__ import print_function, unicode_literals
 import unittest
 import oxrse
 
+
 class AddSubtractTest(unittest.TestCase):
     """
     Tests the :meth:`add()` and :meth:`subtract()` methods.

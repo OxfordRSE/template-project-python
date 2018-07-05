@@ -9,6 +9,7 @@
 from __future__ import absolute_import, division
 from __future__ import print_function, unicode_literals
 
+
 def add(a, b):
     """
     Adds ``a`` and ``b`` and returns the result.
@@ -16,6 +17,7 @@ def add(a, b):
     See also :meth:`subtract()`.
     """
     return a + b
+
 
 def subtract(a, b):
     """

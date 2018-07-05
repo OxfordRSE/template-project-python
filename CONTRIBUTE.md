@@ -19,11 +19,17 @@ We use [GIT](https://en.wikipedia.org/wiki/Git) for version control, and [GitHub
 ## Style
 
 OxRSE is written in [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) and we follow the [PEP8 recommendations](https://www.python.org/dev/peps/pep-0008/) for coding style.
+
+### Style checking
+
 Adherence to PEP8 is checked using [flake8](http://flake8.pycqa.org/en/latest/).
 To test your style locally, navigate to the OxRSE directory and type
 ```
 $ flake8
 ```
+Flake8 is configured using the file `.flake8`.
+
+When there is no alternative, individual lines of code can be excluded from style checking by adding `# noqa`.
 
 ## Documentation
 
