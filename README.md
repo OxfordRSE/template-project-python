@@ -21,5 +21,5 @@ To install (for all users), use
 pip install -e .
 ```
 
-To install as a developer, see the (contributing guidelines)[CONTRIBUTE.md]
+To install as a developer, see the [guidelines for contributing](CONTRIBUTE.md).
 
