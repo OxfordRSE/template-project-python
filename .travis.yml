@@ -58,7 +58,7 @@ before_script:
 # Run tests
 script:
   - if [[ $OXRSE_UNIT == true ]]; then python -m unittest discover; fi;
-  - if [[ $OXRSE_COVER == true ]]; then coverage run python -m unittest discover; fi;
+  - if [[ $OXRSE_COVER == true ]]; then coverage run -m unittest discover; fi;
   - if [[ $OXRSE_STYLE == true ]]; then python -m flake8; fi;
   - if [[ $OXRSE_DOCS == true ]]; then sphinx-build -b html docs/source docs/build/html -W; fi;
 
