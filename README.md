@@ -1,5 +1,4 @@
-# template-project-python
-a template Python project
+# OxRSE Template Python Project
 
 To do:
 - [x] gitignore
@@ -12,3 +11,15 @@ To do:
 - [ ] codecov (badge)
 - [ ] readthedocs (badge)
 - [ ] Documentation on this page
+
+
+## Installation
+
+To install (for all users), use
+
+```
+pip install -e .
+```
+
+To install as a developer, see the (contributing guidelines)[CONTRIBUTE.md]
+
