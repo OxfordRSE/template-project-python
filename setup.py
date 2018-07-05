@@ -63,7 +63,7 @@ setup(
     url='https://github.com/OxfordRSE/template-project-python',
 
     # Packages to include
-    packages=find_packages(include=('pints', 'pints.*')),
+    packages=find_packages(include=('oxrse', 'oxrse.*')),
 
     # List of dependencies
     install_requires=[
