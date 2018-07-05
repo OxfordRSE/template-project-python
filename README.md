@@ -3,14 +3,16 @@
 To do:
 - [x] gitignore
 - [x] Module structure
-- [ ] Sphinx docs
+- [x] Sphinx docs
 - [x] Unit tests
 - [x] setup.py
+- [x] Contribute.md
+- [x] CITATION file
 - [ ] travis (badge)
 - [ ] appveyor (badge)
 - [ ] codecov (badge)
 - [ ] readthedocs (badge)
-- [ ] Documentation on this page
+- [ ] Readme.md
 
 
 ## Installation
