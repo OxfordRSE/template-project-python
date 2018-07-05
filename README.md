@@ -1,5 +1,9 @@
 # OxRSE Template Python Project
 
+[![TravisCI](https://travis-ci.org/OxfordRSE/template-project-python.svg?branch=master)](https://travis-ci.org/OxfordRSE/template-project-python/)
+
+
+
 To do:
 - [x] gitignore
 - [x] Module structure
