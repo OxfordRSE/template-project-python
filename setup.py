@@ -47,7 +47,7 @@ setup(
 
     description='An example Python project.',
 
-    long_description=get_readme,
+    long_description=get_readme(),
 
     license='BSD 3-clause license',
 
