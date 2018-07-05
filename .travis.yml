@@ -40,8 +40,8 @@ matrix:
         - python: "3.6"
           env:
             - OXRSE_STYLE=true
-        #- python: "3.6"
-        #  env:
+        - python: "3.6"
+          env:
             - OXRSE_DOCS=true
 
 # Install Python dependencies
