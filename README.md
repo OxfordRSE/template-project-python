@@ -1,5 +1,4 @@
 # OxRSE Template Python Project
-
 [![TravisCI](https://travis-ci.org/OxfordRSE/template-project-python.svg?branch=master)](https://travis-ci.org/OxfordRSE/template-project-python/)
 [![codecov](https://codecov.io/gh/OxfordRSE/template-project-python/branch/master/graph/badge.svg)](https://codecov.io/gh/OxfordRSE/template-project-python)
 [![Documentation Status](https://readthedocs.org/projects/oxrse-template-python/badge/?version=latest)](https://oxrse-template-project-python.readthedocs.io/en/latest/?badge=latest)
