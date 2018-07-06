@@ -14,8 +14,8 @@ To do:
 - [x] CITATION file
 - [x] travis (badge)
 - [x] appveyor (badge)
-- [ ] codecov (badge) --> Config error
-- [ ] readthedocs (badge) --> Doesn't build correctly on readthedocs...
+- [ ] codecov (badge)
+- [ ] readthedocs (badge) --> Still need to set up webhook
 - [ ] README.md
 
 
