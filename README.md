@@ -5,13 +5,6 @@
 [![Documentation Status](https://readthedocs.org/projects/oxrse-template-project-python/badge/?version=latest)](https://oxrse-template-project-python.readthedocs.io/en/latest/?badge=latest)
 
 To do:
-- [x] gitignore
-- [x] Module structure
-- [x] Sphinx docs
-- [x] Unit tests
-- [x] setup.py
-- [x] Contribute.md
-- [x] CITATION file
 - [x] travis (badge)
 - [x] appveyor (badge)
 - [x] codecov (badge)
