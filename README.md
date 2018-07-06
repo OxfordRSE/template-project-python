@@ -12,9 +12,9 @@ To do:
 - [x] Contribute.md
 - [x] CITATION file
 - [x] travis (badge)
-- [ ] appveyor (badge)
-- [ ] codecov (badge)
-- [x] readthedocs (badge)
+- [ ] appveyor (badge) --> Started setting up
+- [ ] codecov (badge) --> Started setting up
+- [ ] readthedocs (badge) --> Doesn't build correctly on readthedocs...
 - [ ] README.md
 
 
