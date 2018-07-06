@@ -13,7 +13,7 @@ import numpy as np
 
 class FloatRounder(object):
     """
-    Rounds floating point numbers. **THIS IS A TEST2**
+    Rounds floating point numbers.
 
     Two rounding modes are available: rounding to the nearest integer (default)
     and rounding towards zero (to enable set ``round_towards_zero`` to
