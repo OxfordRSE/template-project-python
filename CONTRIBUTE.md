@@ -33,6 +33,18 @@ When there is no alternative, individual lines of code can be excluded from styl
 
 ## Documentation
 
+Documentation is built from the [docstrings](https://www.python.org/dev/peps/pep-0257/) found in every module, class, and method. Docstrings are written in [reStructuredText](http://docutils.sourceforge.net/docs/user/rst/quickref.html) (see also [wikipedia](https://en.wikipedia.org/wiki/ReStructuredText).
+
+Documentation is built using [Sphinx](http://www.sphinx-doc.org/en/stable/). To do this locally, navigate to the OxRSE directory and type
+
+```
+cd doc
+make clean
+make html
+```
+
+Online documentation is built automatically and hosted by [readthedocs.org](https://oxrse-template-project-python.readthedocs.io/en/latest/).
+
 ## Testing
 
 Unit tests are implemented using the [unittest](https://docs.python.org/3.3/library/unittest.html) package.
@@ -52,6 +64,6 @@ $ python -m unittest oxrse.tests.test_calculate
 Automated tests and coverage testing are run on the github repository.
 
 - [Travis](https://travis-ci.org) is used to test on Linux systems. Configuration file `.travis.yml` ([syntax](https://docs.travis-ci.com/)).
-- [AppVeyor](http://appveyor.com/) is used to test on Windows systems. Configuration file `appveyor.yml` ([syntax](https://www.appveyor.com/docs/build-configuration/#configuring-build)).
+- [AppVeyor](http://appveyor.com/) is used to test on Windows systems. Configuration file `appveyor.yml` ([syntax](https://packaging.python.org/guides/supporting-windows-using-appveyor/)).
 - Test cover is tested with [codecov.io](https://docs.codecov.io/docs) which builds on [coverage](https://coverage.readthedocs.io/). Configuration file: `.coveragerc` ([syntax](https://coverage.readthedocs.io/en/latest/config.html)).
 
