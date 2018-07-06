@@ -4,13 +4,6 @@
 [![codecov](https://codecov.io/gh/OxfordRSE/template-project-python/branch/master/graph/badge.svg)](https://codecov.io/gh/OxfordRSE/template-project-python)
 [![Documentation Status](https://readthedocs.org/projects/oxrse-template-project-python/badge/?version=latest)](https://oxrse-template-project-python.readthedocs.io/en/latest/?badge=latest)
 
-To do:
-- [x] travis (badge)
-- [x] appveyor (badge)
-- [x] codecov (badge)
-- [ ] readthedocs (badge) --> Still need to set up webhook
-- [ ] README.md
-
 
 ## Installation
 
@@ -101,3 +94,6 @@ Again, follow the instructions to set up and account and link it to github.
 Some parts of your code (e.g. `NotImplementedError`s) can be excluded by writing a configuration file: `.coveragerc` ([syntax](https://coverage.readthedocs.io/en/latest/config.html)).
 
 
+# Feedback and suggestions
+
+If you have any feedback or suggestions about this project, please get in touch or open an issue.
