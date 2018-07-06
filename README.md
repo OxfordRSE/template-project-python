@@ -69,7 +69,7 @@ To run a specific test, use e.g.
 $ python -m unittest oxrse.tests.test_calculate
 ```
 
-## Automated testing with Travis
+### Automated testing with Travis
 
 We use [Travis](https://travis-ci.org) to test on Linux systems.
 
@@ -78,14 +78,14 @@ To set this up, create an account on Travis (free for open source), and follow t
 Once that's done, you can write a `.travis.yml` configuration script ([syntax](https://docs.travis-ci.com/)) that tells travis which Python versions to use, which commands to call for testing etc.
 Feel free to copy-paste from our example code!
 
-## Automated testing with AppVeyor
+### Automated testing with AppVeyor
 
 [AppVeyor](http://appveyor.com/) offers free testing on Windows systems.
 
 As before, set up an account and follow the instructions.
 An `appveyor.yml` configuration file ([syntax](https://packaging.python.org/guides/supporting-windows-using-appveyor/)) is used to tell AppVeyor which Python versions to test, what to install, and what test commands to run.
 
-## Automated coverage checking with CodeCov
+### Automated coverage checking with CodeCov
 
 We use [codecov.io](https://docs.codecov.io/docs), which builds on [coverage](https://coverage.readthedocs.io/), to test if every line of code is hit during unit testing, and to generate nice reports.
 
