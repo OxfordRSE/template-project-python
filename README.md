@@ -17,6 +17,7 @@ It includes:
 - Automated testing using `Travis` and `AppVeyor`
 - Automated coverage testing using `coverage` and `codecov`.
 
+
 ## Installation
 
 To install (for all users), use
