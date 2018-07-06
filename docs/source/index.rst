@@ -1,10 +1,13 @@
-.. OxRSE documentation master file, created by
-   sphinx-quickstart on Thu Jul  5 17:18:01 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. Root of all OxRSE docs
+
+.. _GitHub: https://github.com/OxfordRSE/template-project-python
+
+
 
 Welcome to OxRSE's documentation!
 =================================
+
+The OxRSE Template Python Project is a tiny Python project, hosted on GitHub_, that shows how various modern, free tools can be used to adhere to good software practice.
 
 .. toctree::
     calculate
