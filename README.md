@@ -14,7 +14,7 @@ To do:
 - [x] CITATION file
 - [x] travis (badge)
 - [x] appveyor (badge)
-- [ ] codecov (badge)
+- [x] codecov (badge)
 - [ ] readthedocs (badge) --> Still need to set up webhook
 - [ ] README.md
 
