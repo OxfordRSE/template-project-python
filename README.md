@@ -4,6 +4,8 @@
 [![codecov](https://codecov.io/gh/OxfordRSE/template-project-python/branch/master/graph/badge.svg)](https://codecov.io/gh/OxfordRSE/template-project-python)
 [![Documentation Status](https://readthedocs.org/projects/oxrse-template-project-python/badge/?version=latest)](https://oxrse-template-project-python.readthedocs.io/en/latest/?badge=latest)
 
+[![AppVeyor](https://ci.appveyor.com/api/projects/status/4409b63ew60cnmu3?svg=true)](https://ci.appveyor.com/project/martinjrobins/template-project-python)
+
 To do:
 - [x] gitignore
 - [x] Module structure
