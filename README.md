@@ -113,6 +113,6 @@ Again, follow the instructions to set up and account and link it to github.
 Some parts of your code (e.g. `NotImplementedError`s) can be excluded by writing a configuration file: `.coveragerc` ([syntax](https://coverage.readthedocs.io/en/latest/config.html)).
 
 
-# Feedback and suggestions
+## Feedback and suggestions
 
 If you have any feedback or suggestions about this project, please get in touch or open an issue.
