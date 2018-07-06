@@ -4,6 +4,18 @@
 [![codecov](https://codecov.io/gh/OxfordRSE/template-project-python/branch/master/graph/badge.svg)](https://codecov.io/gh/OxfordRSE/template-project-python)
 [![Documentation Status](https://readthedocs.org/projects/oxrse-template-project-python/badge/?version=latest)](https://oxrse-template-project-python.readthedocs.io/en/latest/?badge=latest)
 
+## Overview
+
+This project provides a template for Python projects that want to adhere to good software practices.
+It includes:
+
+- A `setup.py` script for installation with `pip`.
+- Style checking using `flake8` to check `PEP8` adherence.
+- Documentation built from `dosctrings` using `Sphinx` and `reStructuredText`.
+- Online documentation hosted on `readthedocs.org`.
+- Unit tests built using the `unittest` module.
+- Automated testing using `Travis` and `AppVeyor`
+- Automated coverage testing using `coverage` and `codecov`.
 
 ## Installation
 
@@ -19,6 +31,12 @@ $ pip install -e .[dev,docs]
 ```
 Unlike a normal install, this doesn't _copy_ your project, but just makes a link to your source code.
 As a result, you can still use `import oxrse` anywhere on your system, but the imported code will be the code in your development folder.
+
+### How does it work?
+
+Installation is handled via `setup.py`, which uses [setuptools](http://setuptools.readthedocs.io/).
+This can then be used either directly (`python setup.py install`) or via `pip`.
+Both methods install both the module and its dependencies.
 
 
 ## Style
