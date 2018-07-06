@@ -1,9 +1,9 @@
 #
 # OxRSE setuptools script
 #
-# This file is part of PINTS.
-#  Copyright (c) 2017-2018, University of Oxford.
-#  For licensing information, see the LICENSE file distributed with the PINTS
+# This file is part of the Oxford RSE Python Template project.
+#  Copyright (c) 2018, University of Oxford.
+#  For licensing information, see the LICENSE file distributed with the OxRSE
 #  software package.
 #
 from __future__ import absolute_import, division

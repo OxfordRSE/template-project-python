@@ -64,7 +64,7 @@ script:
 
 # Compile coverage report
 after_success:
-  - if [[ $MYOKIT_COVER == true ]]; then codecov; fi;
+  - if [[ $OXRSE_COVER == true ]]; then codecov; fi;
 
 # Send notifications
 notifications:
