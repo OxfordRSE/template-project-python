@@ -1,6 +1,5 @@
 #
 # Configuration for travis-ci testing
-# This tests ubuntu by default, but can also be made to test on osx
 #
 sudo: false
 
@@ -9,17 +8,10 @@ dist: trusty
 
 language: python
 
-env:
-  - OXRSE_UNIT=false
-    OXRSE_COVER=false
-    OXRSE_STYLE=false
-    OXRSE_DOCS=false
-
-
 matrix:
     # Always put true env variable first, for nicer overview on travis website
     include:
-        # Unit tests on different python versions
+        # Unit tests on different python versions, all on Ubuntu
         - python: "2.7"
           env:
             - OXRSE_UNIT=true
@@ -30,6 +22,12 @@ matrix:
           env:
             - OXRSE_UNIT=true
         - python: "3.6"
+          env:
+            - OXRSE_UNIT=true
+
+        # Unit tests on OS/X
+        - os: osx
+          language: generic
           env:
             - OXRSE_UNIT=true
 
