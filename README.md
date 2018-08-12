@@ -14,7 +14,7 @@ It includes:
 - Documentation built from `dosctrings` using `Sphinx` and `reStructuredText`.
 - Online documentation hosted on `readthedocs.org`.
 - Unit tests built using the `unittest` module.
-- Automated testing using `Travis` and `AppVeyor`
+- Automated testing using `Travis` for Linux and OS/X, and `AppVeyor` for Windows
 - Automated coverage testing using `coverage` and `codecov`.
 
 
