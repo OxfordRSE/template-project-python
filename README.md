@@ -90,7 +90,7 @@ $ python -m unittest oxrse.tests.test_calculate
 
 ### Automated testing with Travis
 
-We use [Travis](https://travis-ci.org) to test on Linux systems.
+We use [Travis](https://travis-ci.org) to test on Linux (Ubuntu) and OS/X.
 
 To set this up, create an account on Travis (free for open source), and follow the instructions about setting up a project and linking it to github.
 
