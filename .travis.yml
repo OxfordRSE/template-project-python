@@ -8,6 +8,12 @@ dist: trusty
 
 language: python
 
+# Don't build branches other than `master` when pushed
+# (They will still be built for pull requests)
+branches:
+  only:
+    - master
+
 matrix:
     # Always put true env variable first, for nicer overview on travis website
     include:
