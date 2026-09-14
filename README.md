@@ -1,8 +1,10 @@
 # OxRSE Template Python Project
-[![TravisCI](https://travis-ci.org/OxfordRSE/template-project-python.svg?branch=master)](https://travis-ci.org/OxfordRSE/template-project-python/)
-[![AppVeyor](https://ci.appveyor.com/api/projects/status/4409b63ew60cnmu3?svg=true)](https://ci.appveyor.com/project/martinjrobins/template-project-python)
-[![codecov](https://codecov.io/gh/OxfordRSE/template-project-python/branch/master/graph/badge.svg)](https://codecov.io/gh/OxfordRSE/template-project-python)
-[![Documentation Status](https://readthedocs.org/projects/oxrse-template-project-python/badge/?version=latest)](https://oxrse-template-project-python.readthedocs.io/en/latest/?badge=latest)
+
+> [!WARNING]
+> This template is outdated and no longer maintained.
+> It relies on tooling (e.g. `setup.py`, Travis CI) that is no longer recommended for new Python projects.
+> For a modern, actively maintained Python project template, we suggest using [scientific-python/cookie](https://github.com/scientific-python/cookie) instead.
+
 
 ## Overview
 
